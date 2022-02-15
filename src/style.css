@@ -1,0 +1,44 @@
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 60px;
+}
+
+.board {
+  width: 210px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  justify-content: flex-start;
+}
+
+.key {
+  background-color: #d3d3d3;
+  width: 100px;
+  height: 100px;
+  filter: brightness(70%);
+  cursor: pointer;
+}
+
+.clicked {
+  filter: brightness(100%);
+}
+
+.key-1 {
+  background-color: red;
+}
+
+.key-2 {
+  background-color: yellow;
+}
+
+.key-3 {
+  background-color: green;
+}
+
+.key-4 {
+  background-color: blue;
+}
